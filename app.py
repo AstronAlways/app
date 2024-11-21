@@ -18,7 +18,7 @@ def predict_digit(image):
     prediction = model.predict(image)
     return np.argmax(prediction), np.max(prediction)
 
-=
+
 st.title("Handwritten Digit Recognizer")
 st.write("Draw a digit below and click 'Predict' to identify it!")
 
